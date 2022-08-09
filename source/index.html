@@ -22,29 +22,28 @@
       <button class="main-nav__close" type="button">
         <img src="./img/icon-cross.svg" width="22.2" height="22.2" alt="Меню">
       </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="index.html">
-              Главная
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a href="catalog.html">
-              Фото и видео
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a href="form.html">
-              Форма отзыва
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">
-              htmlacademy
-            </a>
-          </li>
-        </ul>
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="catalog.html">
+            Фото и видео
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="form.html">
+            Форма отзыва
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">
+            htmlacademy
+          </a>
+        </li>
+      </ul>
     </nav>
   </header>
 
@@ -55,7 +54,6 @@
 
     <!-- product -->
     <section class="product">
-      <img src="./img/back-mobile.jpg" alt="Sedona" class="product__background">
       <img src="./img/text-index.svg" alt="Добро пожаловать в Седону!" class="product__slogan">
       <h2 class="product__title">СЕДОНА — небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p class="product__subtitle">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
@@ -70,8 +68,9 @@
             <h3 class="benefits__title">НАСТОЯЩИЙ ГОРОДОК</h3>
             <p class="benefits__number">— №1 —</p>
             <p class="benefits__subtitle">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+            <img src="./img/photo-city@1x 1 (1).jpg" alt="Вид на город" class="benefits__image" width="320" height="260">
           </div>
-          <img src="./img/photo-city@1x 1 (1).jpg" alt="Вид на город" class="benefits__image" width="320" height="260">
+
           <ul class="benefits__sublist advantages-list">
             <li class="advantages-list__item">
               <h4 class="advantages-list__title">ЖИЛЬЕ</h4>
@@ -93,8 +92,9 @@
             <h3 class="benefits__title">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
             <p class="benefits__number">— №2 —</p>
             <p class="benefits__subtitle">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+            <img src="./img/Group 5.jpg" alt="Вид на мост" class="benefits__image" width="320" height="260">
           </div>
-          <img src="./img/Group 5.jpg" alt="Вид на мост" class="benefits__image" width="320" height="260">
+
         </li>
 
         <li class="benefits__item">
@@ -106,9 +106,11 @@
         </li>
 
         <li class="benefits__item">
-          <h3 class="benefits__title">КРАСИВАЯ ДОРОГА</h3>
-          <p class="benefits__number">— №4 —</p>
-          <p class="benefits__subtitle">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <div class="benefits__container">
+            <h3 class="benefits__title">КРАСИВАЯ ДОРОГА</h3>
+            <p class="benefits__number">— №4 —</p>
+            <p class="benefits__subtitle">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
         </li>
 
         <li class="benefits__item">
